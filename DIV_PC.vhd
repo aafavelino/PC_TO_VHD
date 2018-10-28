@@ -1,3 +1,4 @@
+-- Atualizar o valor do clock a cada alteração 
 process (CLK)
 begin
 	if CLK'event and CLK='1' then
