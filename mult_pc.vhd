@@ -14,6 +14,7 @@ with comp0 select
 with start select
 	S3 <= '0' when '0',
 		  '1' when others;
+-- Mudar esse terceiro parâmetro para outro valor de bit
 with Q select
 	S4 <= S3  when '000', 
 		  S2  when '001', 
